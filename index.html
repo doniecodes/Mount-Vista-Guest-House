@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Donald Zarura | @doniecode">
+    <meta name="description" content="Mount Vista Guest House">
+    <meta name="keywords" content="Guest House Near Me, Guest House In Pretoria, Trusted Guest House In Pretoria">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="shortcut icon" href="images/outside3.jpeg" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Mount Vista Guest House</title>
+</head>
+<body>
+
+    <!-- header -->
+     <header>
+        <div class="container header-flex">
+            <p class="main-logo">Logo</p>
+            <nav class="main-navbar">
+                <ul class="main-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="about-nav-item">
+                        <a href="#about">About</a>
+                        <div class="about-dropdown">
+                            <ul>
+                                <li><a href="#about">About Us</a></li>
+                                <li><a href="#amenities">Amenities</a></li>
+                                <li><a href="#faqs">FAQs</a></li>
+                                <li><a href="#testimonials">Testimonials</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html" class="btn btn-nav">Contact</a></li>
+                </ul>
+                <i class="fas fa-bars" id="hamburger"></i>
+            </nav>
+
+            <!-- mobile navigation -->
+            <nav class="mobile-nav">
+                <i class="fas fa-close" id="close-menu"></i>
+                <ul class="mobile-main-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="about-menu">
+                        <details>
+                            <summary>
+                                About
+                            </summary>
+                            <ul>
+                                <li><a href="#about">About Us</a></li>
+                                <li><a href="#amenities">Amenities</a></li>
+                                <li><a href="#faqs">FAQs</a></li>
+                                <li><a href="#testimonials">Testimonials</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html" class="btn-mobile-nav">Contact</a></li> 
+                </ul>
+            </nav>
+        </div>
+     </header>
+
+     <!-- hero section -->
+      <section class="hero">
+            <div class="hero-content">
+                <h1 class="heading-1">Mount Vista <span>Guest House</span></h1>
+
+                <p class="hero-text">
+                    Make your stay memorable, mount vista is great for everyone who collects beautiful moments.  Our rooms are trusted throughout South Africa.
+                </p>
+
+                <div class="hero-btns">
+                    <a href="contact.html" class="btn btn-hero">Book Now
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-hero2">Whatsapp Now
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+      </section>
+
+     <video src="images/intro-video.mp4" muted controls autoplay loop></video>
+
+      <!-- about section -->
+       <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <img src="images/outside1.jpg" alt="" class="about-img">
+                <div class="about-text-wrapper">
+                    <h2 class="section-title">
+                        About Us
+                    </h2>
+                    <p class="text about-text">
+                        Mount Vista features mountain views, free WiFi and free private parking, located in Pretoria, next to Belgium Campus IT Varsity. The accommodation provides a 24-hour front desk and a business centre for guests.
+                    </p>
+                    <p class="text about-text">
+                        At the guest house, all rooms are En-Suite and they are all equipped for self catering and include a flat screen smart TV.
+                    </p>
+                    <p class="text about-text">
+                        Guests at the house can enjoy hiking nearby, or make the most of the garden. Pretoria Country Club is 20 km from Mount Vista, while Rietvlei Nature Reserve is 30 km away. The nearest airport is Wonderboom Airport, 8 km from the accommodation.
+                    </p>
+
+                    <a href="rooms.html" class="about-btn">
+                        See Our Rooms
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+       </section>
+
+       <!-- Amenities Section -->
+        <section class="amenities-section" id="amenities">
+            <div class="container">
+                <h2 class="section-title">
+                    Our Amenities
+                </h2>
+                <p class="amenities-text">
+                    At Mount Vista, we provide these amenities  to ensure your stay is as comfortable and enjoyable as possible.
+                </p>
+                <div class="amenities">
+                    <!-- amenity group -->
+                    <div class="amenity-group">
+                        <div class="amenity">
+                            <i class="fas fa-wifi"></i>
+                            <span class="amenity-name">Free Wifi</span>
+                        </div>
+                        <div class="amenity">
+                            <i class="fas fa-shirt"></i>
+                            <span class="amenity-name">Laundry Services</span>
+                        </div>
+                        <div class="amenity">
+                            <i class="fas fa-car"></i>
+                            <span class="amenity-name">Secured Parking</span>
+                        </div>
+                        <div class="amenity">
+                            <i class="fas fa-lock"></i>
+                            <span class="amenity-name">24/7 Security</span>
+                        </div>
+                    </div>
+                   <!-- amenity group -->
+                    <div class="amenity-group">
+                        <div class="amenity">
+                            <i class="fa-solid fa-fire"></i>
+                            <span class="amenity-name">Braai/Barbecue</span>
+                        </div>
+                        <div class="amenity">
+                            <i class="fa-solid fa-heart"></i>
+                            <span class="amenity-name">Romantic</span>
+                        </div>
+                        <div class="amenity">
+                            <i class="fa-solid fa-pizza-slice"></i>
+                            <span class="amenity-name">Food &amp Drinks</span>
+                        </div>
+                        <div class="amenity">
+                            <i class="fa-solid fa-person-swimming"></i>
+                            <span class="amenity-name">Swimming Pool</span>
+                        </div>
+                    </div>
+                    <!-- amenity-group -->
+                     <div class="amenity-group">
+                        <div class="amenity">
+                            <i class="fas fa-broom"></i>
+                            <span class="amenity-name">Daily Housekeeping</span>
+                        </div>
+                        <div class="amenity">
+                            <i class="fas fa-tv"></i>
+                            <span class="amenity-name">Flat Screen TV</span>
+                        </div>
+                        <div class="amenity">
+                            <i class="fas fa-tv"></i>
+                            <span class="amenity-name">DSTV Package</span>
+                        </div>
+                     </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQs Section -->
+         <section class="faqs-section" id="faqs">
+            <div class="container">
+                <h2 class="section-title">
+                    Frequently Asked Questions
+                </h2>
+                <p class="faqs-text">
+                    Here we answered some of the questions you might have.
+                </p>
+                <div class="faqs">
+                    <details open>
+                        <summary>
+                            Does Mount Vista provide laundry Services ?
+                            <div class="faqs-btns">
+                                <i class="fas fa-plus"></i>
+                                <i class="fas fa-minus"></i>
+                            </div>
+                        </summary>
+                        <p class="answer">
+                            Yes! Mount Vista Guest House offers laundry service at your grasp for whenever you need your favourite clothes clean and fresh all throughout your holiday. Please contact the property for more information.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>
+                            What time is check-in and check-out at Mount Vista Guest House ?
+                            <div class="faqs-btns">
+                                <i class="fas fa-plus"></i>
+                                <i class="fas fa-minus"></i>
+                            </div>
+                        </summary>
+                        <p class="answer">
+                            Check-in is from 02:00 PM, and check-out is until 10:00 AM. <br> You may request early check-in or late check-out during booking, subject to availability. Travelers checking in or out before or after the specified periods may be charged an additional fee.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>
+                            Does Mount Vista Guest House offer free cancellation for a full refund ?
+                            <div class="faqs-btns">
+                                <i class="fas fa-plus"></i>
+                                <i class="fas fa-minus"></i>
+                            </div>
+                        </summary>
+                        <p class="answer">
+                            No. we do not offer free cancellation for a full refund.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>
+                            Is Breakfast offered at Mount Vista Guest House ?
+                            <div class="faqs-btns">
+                                <i class="fas fa-plus"></i>
+                                <i class="fas fa-minus"></i>
+                            </div>
+                        </summary>
+                        <p class="answer">
+                           We got self catering in the house
+                        </p>
+                    </details>
+                    <details>
+                        <summary>
+                            Is car parking available at the Guest House ?
+                            <div class="faqs-btns">
+                                <i class="fas fa-plus"></i>
+                                <i class="fas fa-minus"></i>
+                            </div>
+                        </summary>
+                        <p class="answer">
+                            Mount Vista Guest House has car park free of charge for all visitors traveling with a vehicle. Please contact the property for more information
+                        </p>
+                    </details>
+                    <details>
+                        <summary>
+                            Is there a swimming pool ?
+                            <div class="faqs-btns">
+                                <i class="fas fa-plus"></i>
+                                <i class="fas fa-minus"></i>
+                            </div>
+                        </summary>
+                        <p class="answer">
+                            Yes, there is a swimming pool at our guest house!
+                        </p>
+                    </details>
+                    <details>
+                        <summary>
+                            Are pets allowed ?
+                            <div class="faqs-btns">
+                                <i class="fas fa-plus"></i>
+                                <i class="fas fa-minus"></i>
+                            </div>
+                        </summary>
+                        <p class="answer">
+                            Sorry, pets are not allowed.
+                        </p>
+                    </details>
+                </div>
+            </div>
+         </section>
+
+         <!-- Testimonials Section -->
+          <section class="testimonials-section" id="testimonials">
+            <div class="container">
+                <h2 class="section-title test-title">
+                    Client Testimonials
+                </h2>
+                <div class="card-group card-group-1">
+                    <div class="card">
+                        <img src="images/nicolene.jpg" alt="image">
+                            <span>
+                                <h4 class="person-name">
+                                    Nicolene Olivier
+                                </h4>
+                                <p class="job">
+                                    PM at Freelance Artist
+                                </p>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </span>
+                            <p class="test-card-text">
+                                The guesthouse owner assisted us after hours. We had a very warm and friendly welcoming to the accommodation. The house and the room were very neat. Looking forward to my next visit!
+                            </p>
+                    </div>
+                    <div class="card">
+                        <img src="images/lesley.jpg" alt="image">
+                            <span>
+                                <h4 class="person-name">
+                                    lesley Chotia
+                                </h4>
+                                <p class="job">
+                                    CEO at Elethu Group Holdings
+                                </p>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </span>
+                            <p class="test-card-text">
+                                Mount Vista Boutique Hotel is one of the best in the area. Clean building and establishment with nice mountain views and is simply breathtaking. I would recommend this venue any time.
+                            </p>
+                    </div>
+                </div>
+                
+                <!-- card group 2 -->
+                 <div class="card-group card-group-2">
+                    <div class="card">
+                        <img src="images/dinah.jpg" alt="image">
+                            <span>
+                                <h4 class="person-name">
+                                    Dinah Lenkokile
+                                </h4>
+                                <p class="job">
+                                    Section Manager at Prasa
+                                </p>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </span>
+                            <p class="test-card-text">
+                                I liked the place very much. The quietness of the place and the unique spot near the Mountain view was just so beautiful. The host was also very nice and caring. I will definitely go back for another day of my retreat again.
+                            </p>
+                    </div>
+                    <div class="card">
+                        <img src="images/neo.jpg" alt="image">
+                            <span>
+                                <h4 class="person-name">
+                                    Neo Makgathulela
+                                </h4>
+                                <p class="job">
+                                    Studied at Pretoria CTI Campus
+                                </p>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </span>
+                            <p class="test-card-text">
+                                The best ever stay I was having. Not to mention Mom Ingrid and her stuff how kind and caring they were. Overall, I would highly recommend Mount Vista Guesthouse to anyone looking for a comfortable and welcoming place to stay.
+                            </p>
+                    </div>
+                </div>
+
+                        <!-- card control buttons -->
+                  <div class="card-buttons">
+                    <i class="fas fa-chevron-left" id="prev-card"></i>
+                    <i class="fas fa-chevron-right" id="next-card"></i>
+                </div>
+            
+        </section>
+
+         <!-- back to top button -->
+         <div class="container">
+                <a class="back-to-top" href="index.html">
+                    Back to top
+                </a>
+         </div>
+         <!-- Footer -->
+    <footer>
+        <div class="container">
+         <div class="footer-grid">
+         <!-- bed and breakfast -->
+         <div class="stars-logo">
+            <img src="images/3-stars.png" alt="">
+        </div>
+        <!-- footer links -->
+         <div class="footer-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#amenities">Amenities</a></li>
+                <li><a href="#faqs">FAQs</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+            </ul>
+            <ul>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" class="btn-footer">Enquire Now</a></li>
+            </ul>
+         </div>
+
+
+    </div>
+            <div class="attribution">
+                <div>Mount Vista &copy 2024</div>
+                <p>website created by <a href="https://www.instagram.com/doniecode/" target="_blank">Donald Zarura | @doniecode</a></p>
+            </div>
+        </div>
+        
+    </footer>
+       <script src="script.js"></script>
+</body>
+</html>
